@@ -34,7 +34,6 @@ public class Liebre extends Animal{
 		
 		if(!estaDormida) {
 			System.out.println("La posición de "+nombre+ ": "+posicion);
-			//System.out.println("Contador "+contador);
 		}else {
 			System.out.println("La liebre está dormida..." +(contador-4)+ "en la posicion"+posicion);
 			
@@ -50,7 +49,7 @@ public class Liebre extends Animal{
 
 	@Override
 	protected void pisarCharco() {
-		//if(!estaDormida) {
+		
 			System.out.println(nombre + " ha pisado un charco en el metro:"+posicion+". Pierde 5 segundos");
 
 			try {
@@ -60,7 +59,6 @@ public class Liebre extends Animal{
 			}
 			moverse();
 			
-		//}
 		
 		
 	}
